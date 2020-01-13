@@ -1,0 +1,45 @@
+page-door-authenticate {
+    background-color: #b06ab3;
+}
+
+.latar5
+{
+    background-color: #ffffff00;
+}
+
+.latar6
+{
+    background-color: #b06ab3;
+}
+
+.racnumber
+{
+    background-color: #ffffff;
+    text-align: center;
+    width: 60%;
+    height: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.item-ion-toggle{
+    pointer-events: none;
+}
+
+.ion-toggle{
+    position: relative;
+    display: inline-block;
+    pointer-events: auto;
+    margin: -5px;
+    padding: 5px;
+    .ion-toggle input:checked{
+        border-color: aqua;
+        background-color: chartreuse;
+    }
+    .ion-toggle.dragging .handle{
+        background-color: crimson !important;
+    }
+}

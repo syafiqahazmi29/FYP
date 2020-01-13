@@ -1,0 +1,48 @@
+<ion-header >
+  <ion-navbar class="keselamatan">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style="color:black"></ion-icon>
+    </button>
+    <!-- <ion-title style="text-align: center; font-size: 14pt; font-style: bold">Home</ion-title> -->
+    <p href="Home" style="text-align: left;font-size: 14pt; color: rgb(0, 0, 0); font-style: bold">STATUS</p>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="padding: 20px" class="bg">
+  <h3></h3>
+
+  <div>
+    <ion-card class="statuspintu">
+      
+      <ion-card-content>
+        <!-- Add card content here! -->
+        <p style="text-align: center;font-size: 24pt; color: rgb(255, 255, 255); font-style: bold">{{status}}</p>
+        <!-- <p style="text-align: center; font-size: 14pt; font-style: bold; color:rgb(255, 255, 255)">This is your current door status</p> -->
+      </ion-card-content>
+    
+    </ion-card>
+  </div>
+
+  <ion-content class="card-background-page">
+
+    <ion-card class="latarumah">
+        <!-- <ion-col>
+            <ion-item style="text-align: center">
+                <div align="center">
+                <ion-avatar>
+                  <img src="assets/imgs/" style="text-align: center">
+                </ion-avatar>
+                </div>
+              </ion-item> 
+        </ion-col> -->
+        <p href="DOOR STATUS" style="text-align: center;font-size: 14pt; color: rgba(61, 90, 255, 0.747); font-style: bold"></p>
+        <ion-thumbnail>
+        <img  class="lockimg" style="height:170px; width: 170px;" src="{{gambar}}">
+      </ion-thumbnail>
+    </ion-card>
+ 
+
+      
+
+  </ion-content>
+</ion-content>

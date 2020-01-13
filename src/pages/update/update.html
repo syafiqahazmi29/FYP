@@ -1,0 +1,48 @@
+<!--
+  Generated template for the UpdatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Edit Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- <h3>Edit </h3> -->
+    <br/>
+    <br/>
+    <ion-item>
+        <ion-label floating>Name</ion-label>
+        <ion-input type="text" value="{{userdata[0].user_name}}" #name name="name" [(ngModel)]="user.name"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+          <ion-label floating>Email</ion-label>
+          <ion-input type="text" value="{{userdata[0].user_email}}"  #name name="email" [(ngModel)]="user.email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Phone</ion-label>
+            <ion-input type="number" value="{{userdata[0].user_phone}}"  #name name="phone" [(ngModel)]="user.phone"></ion-input>
+          </ion-item>
+    
+          <ion-item>
+              <ion-label floating>Username</ion-label>
+              <ion-input type="text" value="{{userdata[0].user_usrname}}"  #name name="username" [(ngModel)]="user.username"></ion-input>
+            </ion-item>
+    
+            <ion-item>
+                <ion-label floating>Password</ion-label>
+                <ion-input type="password" #name name="password" [(ngModel)]="user.password"></ion-input>
+              </ion-item>
+    
+              <ion-item>
+                  <ion-label floating>Confirm Password</ion-label>
+                  <ion-input type="password" #name name="cpassword" [(ngModel)]="user.cpassword"></ion-input>
+                </ion-item>
+    <button ion-button (click)="pop()">Update</button>
+
+</ion-content>

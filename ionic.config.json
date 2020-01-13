@@ -1,0 +1,7 @@
+{
+  "name": "PSMobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
